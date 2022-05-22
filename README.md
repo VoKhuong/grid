@@ -50,6 +50,10 @@ This project only requires 2 routes and does not need any advanced features. A s
 
 Because otherwise you will need your own Google Map API key to run the project and I can't really publish mine because this repository is public.
 
+#### Why didn't you use memoization for the grid?
+
+Because the performance gain would not be worth it.
+
 ## Authors
 
 - [@VoKhuong](https://github.com/VoKhuong)
