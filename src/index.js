@@ -1,5 +1,12 @@
-import ReactDOM from "react-dom";
-import { App } from "./App";
+import { createRoot } from "react-dom/client";
 
-const app = document.getElementById("app");
-ReactDOM.render(<App />, app);
+import { App } from "./App";
+import { NavigationContextProvider } from "./contexts/navigationContext";
+
+const container = document.getElementById("app");
+const root = createRoot(container);
+root.render(
+  <NavigationContextProvider>
+    <App />
+  </NavigationContextProvider>
+);

@@ -42,6 +42,13 @@ npm run build
 
 I decided to go with a utility-first CSS framework because of the size and scale of the project. It allows me to iterate fast and most values are already defined (colors, length, etc.).
 
+#### Why didn't you use react-router/react-navigation/[insert any react routing package]?
+
+This project only requires 2 routes and does not need any advanced features. A simple context is enough for our use-case.
+
+#### Why use an iframe instead of using the real Google Maps API?
+
+Because otherwise you will need your own Google Map API key to run the project and I can't really publish mine because this repository is public.
 
 ## Authors
 

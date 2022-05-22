@@ -1,6 +1,6 @@
 export default function Square({ number }) {
   let color = "bg-transparent";
-  
+
   if (!(number % 3) && !(number % 5)) color = "bg-yellow-500";
   else if (!(number % 3)) color = "bg-red-500";
   else if (!(number % 5)) color = "bg-green-500";
